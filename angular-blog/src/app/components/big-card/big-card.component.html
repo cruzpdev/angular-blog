@@ -1,22 +1,21 @@
 <div class="container__big-card">
   <div class="big-card__photo">
     <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxxdT3QQEcvZadDjKVUXalY2TX3XMK-r2hDnK31zp03OyRuBM5IQrPiok2HXk98Nsaxc&usqp=CAU"
+      src="{{ photoCover }}"
       alt=""
       height="200px"
-    
     />
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Título Matéria</a></h1>
+    <h1>
+      <a href="#">{{ cardTitle }}</a>
+    </h1>
   </div>
   <div class="big-card__description">
     <p>
       <a href="#">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem facere,
-      nihil explicabo quidem qui cum veniam quibusdam dignissimos officia
-      consequuntur. Totam voluptatem nemo non eaque tenetur consequuntur magnam
-      dolor nihil.</a>
+        {{ cardDescription }}
+      </a>
     </p>
   </div>
 </div>
