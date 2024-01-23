@@ -13,7 +13,7 @@
 }
 
 .content__cover{
-    border:1px solid red;
+    border:none
 }
 
 .content__cover > img{
@@ -29,5 +29,6 @@
 }
 
 .content__description > p{
+    margin-top: 20px;
     color: rgb(173, 173, 173);
 }
